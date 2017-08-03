@@ -1,0 +1,77 @@
+# Wheel 0.25+ needed to install certain packages on CPython 3.5+
+# like Pillow and psycopg2
+# See http://bitly.com/wheel-building-fails-CPython-35
+# Verified bug on Python 3.5.1
+wheel==0.29.0
+
+
+# Bleeding edge Django
+django==1.10.7 # pyup: >=1.10,<1.11
+
+# Configuration
+django-environ==0.4.3
+
+
+
+# Forms
+django-braces==1.11.0
+django-crispy-forms==1.6.1
+
+# Models
+django-model-utils==3.0.0
+
+# Images
+Pillow==4.2.1
+
+# Password storage
+argon2-cffi==16.3.0
+
+# For user registration, either via email or social
+# Well-built with regular release cycles!
+django-allauth==0.32.0
+
+
+# Python-PostgreSQL Database Adapter
+psycopg2==2.7.3
+
+# Unicode slugification
+awesome-slugify==1.6.5
+
+# Time zones support
+pytz==2017.2
+
+# Redis support
+django-redis==4.8.0
+redis>=2.10.5
+
+
+celery==3.1.25
+
+
+
+rcssmin==1.0.6 
+django-compressor==2.1.1
+
+
+# Your custom requirements go here
+
+django-autocomplete-light==3.2.3
+django-querysetsequence==0.7.2
+django-cachalot==1.4.1
+django-avatar==3.1.0
+django-annoying==0.10.3
+django-hitcount==1.2.2
+django-filter
+django-cities
+django-geoposition
+django_prices
+django-prices-openexchangerates
+BabelDjango
+django-crispy-forms==1.6.1
+django-parsley
+django-fsm
+easy-thumbnails
+django-image-cropping
+pyelliptic==1.5.7
+git+https://github.com/narnikgamarnikus/django-simplepush
+googlemaps

@@ -1,0 +1,5 @@
+[run]
+include = free_traveler/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
